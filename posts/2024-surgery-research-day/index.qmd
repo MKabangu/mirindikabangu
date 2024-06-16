@@ -1,0 +1,18 @@
+---
+title: "Dural Sinus Stenting in Pediatric IIH"
+host: "IUSM Surgery Symposium"
+abstract: |
+  
+author: "Mirindi Kabangu"
+date: "2024-06-14"
+categories: [code, slides, poster]
+image: "image.jpg"
+url: https://mirindikabangu.org/slides/srs2024
+engine: knitr
+---
+
+This is a post with a plot.
+
+```{r}
+plot(mtcars)
+```

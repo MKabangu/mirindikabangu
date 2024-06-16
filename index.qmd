@@ -1,19 +1,21 @@
 ---
-title: "About Me"
+title: "Mirindi Kabangu"
+image: Profile.jpg
 about:
-  id: me
-  template: broadside
-  image: img/profile.png
+  template: jolla
+  image-width: 20em
+  image-shape: round
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/mirindi_
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/mirindikabangu
+    - icon: github
+      text: Github
+      href: https://github.com/mkabangu
+    - icon: envelope
+      text: Contact Me
+      href: mailto:mkabangu@iu.edu
 ---
-
-:::{#me}
-
-## Goals
-
-## Education
-
-## Experience
-
-:::
-
-Thanks for checking out my web site!
