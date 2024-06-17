@@ -13,21 +13,20 @@ filters:
   - naquiz
 ---
 
-## Introduction
+# Case
 
-Welcome to this case-based presentation on diagnosing and managing idiopathic intracranial hypertension (IIH), tailored for surgical and neurological surgery residents preparing for their boards. Follow the journey of a patient as they experience symptoms, seek treatment, and undergo dural sinus stenting.
+"Chronic headaches"
+
+
+
+::: aside
+Case was modified for teaching purposes
+:::
 
 ------------------------------------------------------------------------
 
 ## Initial Presentation {auto-animate=true}
 Meet Sarah, a 15-year-old girl who presents to the clinic with a three-month history of progressive headaches.
-
-<br>
-
-<br>
-
-
-Meet Sarah, a 15-year-old girl who presents to the clinic with a three-month history of progressive headaches. Her headaches are described as severe, throbbing, and often accompanied by visual disturbances such as seeing double and experiencing transient vision loss. Additionally, Sarah reports hearing a whooshing sound in her ears that synchronizes with her heartbeat, particularly noticeable at night. Concerned about these symptoms, Sarah and her parents seek medical attention.
 
 ------------------------------------------------------------------------
 
@@ -40,7 +39,7 @@ Meet Sarah, a 15-year-old girl who presents to the clinic with a three-month his
 
 ::: columns
 ::: {.column width="\"40%"}
-::: {.fragment .fade}
+::: {.fragment .fade-left}
 ### Vital Signs
 
 120/80 mmHg
