@@ -21,6 +21,6 @@ plot(mtcars)
 
 </iframe>
 
-Click [here](`r rmarkdown::metadata$url`) for the link to the slide. 
+<iframe src="DSS_prez.html" width="100%" height="450px">
 
-<iframe src="`r rmarkdown::metadata$url`" width="100%" height="450px"></iframe>
+</iframe>
