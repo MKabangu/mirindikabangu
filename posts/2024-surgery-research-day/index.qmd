@@ -5,9 +5,11 @@ abstract: |
   "abstract stuff"
 author: "Mirindi Kabangu"
 date: "2024-06-14"
-categories: [code, slides, poster]
 image: "image.jpg"
+categories: [code, slides, poster]
 engine: knitr
 ---
 
-<iframe src="`r rmarkdown::slides/DSS_prez-speaker.html`" width="100%" height="450px"></iframe>
+```{r}
+print(mtcars)
+```
