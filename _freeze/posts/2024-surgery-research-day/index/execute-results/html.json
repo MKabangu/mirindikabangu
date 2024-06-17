@@ -1,0 +1,17 @@
+{
+  "hash": "d7c1b8abeaa73652bb2f4997dc3bb8fd",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Dural Sinus Stenting in Pediatric IIH\"\nhost: \"IUSM Surgery Symposium\"\nabstract: |\n  \"abstract stuff\"\nauthor: \"Mirindi Kabangu\"\ndate: \"2024-06-14\"\ncategories: [code, slides, poster]\nimage: \"image.jpg\"\nurl: https://mirindikabangu.org/slides/srs2024\nengine: knitr\n---\n\n\n\nThis is a post with a plot.\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(mtcars)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

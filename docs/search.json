@@ -1,23 +1,23 @@
 [
   {
-    "objectID": "projects.html#project-2",
-    "href": "projects.html#project-2",
+    "objectID": "projects.html",
+    "href": "projects.html",
     "title": "Projects",
-    "section": "Project 2",
-    "text": "Project 2"
-  },
-  {
-    "objectID": "projects.html#project-3",
-    "href": "projects.html#project-3",
-    "title": "Projects",
-    "section": "Project 3",
-    "text": "Project 3"
+    "section": "",
+    "text": "Dural Sinus Stenting in Pediatric IIH\n\n\n\ncode\n\n\nslides\n\n\nposter\n\n\n\n\nJun 14, 2024\n\n\n\n\n\nHost\n\n\n \n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About Me",
+    "title": "Mirindi Kabangu",
     "section": "",
     "text": "Thanks for checking out my web site!"
+  },
+  {
+    "objectID": "posts/2024-surgery-research-day/index.html",
+    "href": "posts/2024-surgery-research-day/index.html",
+    "title": "Dural Sinus Stenting in Pediatric IIH",
+    "section": "",
+    "text": "This is a post with a plot.\n\nplot(mtcars)"
   }
 ]
