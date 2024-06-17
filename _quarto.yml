@@ -10,6 +10,8 @@ website:
         href: index.qmd
       - text: Projects
         href: projects.qmd
+      - text: Surgery Resident Research Day
+        href: DSS_prez2.qmd  
     tools:
       - icon: twitter
         href: https://twitter.com/mirindi_

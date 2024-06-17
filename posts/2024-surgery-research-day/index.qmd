@@ -2,10 +2,11 @@
 title: "Dural Sinus Stenting in Pediatric IIH"
 host: "IUSM Surgery Symposium"
 abstract: |
-  "abstract stuff"
+  "Background: The diagnosis of idiopathic intracranial hypertension (IIH) is increasingly recognized in the pediatric population, particularly in postpubescent children aged 12 to 15 years.1 Previous case series have demonstrated the feasibility of dural sinus stenting (DSS) in select pediatric cohorts.2,3 This study presents the largest single-center cohort to date, exploring the underlying causes of IIH in children and evaluating the efficacy and safety of DSS."
 author: "Mirindi Kabangu"
 date: "2024-06-14"
 image: "image.jpg"
+url: https://mkabangu.github.io/slides/srs2024
 categories: [code, slides, poster]
 engine: knitr
 ---
