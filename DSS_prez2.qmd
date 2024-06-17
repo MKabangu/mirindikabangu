@@ -11,6 +11,8 @@ format:
     multiplex: true
     show-slide-number: all
     controls: true
+    width: 80%
+    height: 100%
     logo: img/white-iu.png
     min-scale: 1
     max-scale: 1
