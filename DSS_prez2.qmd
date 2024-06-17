@@ -19,20 +19,64 @@ Welcome to this case-based presentation on diagnosing and managing idiopathic in
 
 ------------------------------------------------------------------------
 
-## Initial Presentation
+## Initial Presentation {auto-animate=true}
+Meet Sarah, a 15-year-old girl who presents to the clinic with a three-month history of progressive headaches.
+
+<br>
+
+<br>
+
 
 Meet Sarah, a 15-year-old girl who presents to the clinic with a three-month history of progressive headaches. Her headaches are described as severe, throbbing, and often accompanied by visual disturbances such as seeing double and experiencing transient vision loss. Additionally, Sarah reports hearing a whooshing sound in her ears that synchronizes with her heartbeat, particularly noticeable at night. Concerned about these symptoms, Sarah and her parents seek medical attention.
 
 ------------------------------------------------------------------------
 
+## Initial Presentation {auto-animate=true}
+Meet Sarah, a 15-year-old girl who presents to the clinic with a three-month history of progressive headaches.
+
+<br>
+
+<br>
+
+::: columns
+::: {.column width="\"40%"}
+::: {.fragment .fade}
+### Vital Signs
+
+120/80 mmHg
+
+78 bpm
+
+16 breaths per minute
+
+98.6°F (37°C)
+:::
+:::
+
+::: {.column width="\"40%"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Initial Presentation {auto-animate=true}
+Meet Sarah, a 15-year-old girl who presents to the clinic with a three-month history of progressive headaches.
+
+<br>
+
+<br>
+
 ::: columns
 ::: {.column width="\"40%"}
 ### Vital Signs
 
--   120/80 mmHg
--   78 bpm
--   16 breaths per minute
--   98.6°F (37°C)
+120/80 mmHg
+
+78 bpm
+
+16 breaths per minute
+
+98.6°F (37°C)
 :::
 
 ::: {.column width="\"40%"}
@@ -65,7 +109,9 @@ Whooshing sound heard upon auscultation of the ear
 ::: question
 Given Sarah's presentation of severe headaches, visual disturbances, and pulsatile tinnitus, what is the most likely diagnosis?
 
-. . .
+<br>
+
+<br>
 
 ::: choices
 ::: choice
@@ -111,7 +157,9 @@ Sarah's primary care physician performs a comprehensive history and physical exa
 ::: question
 During the ophthalmology appointment, the ophthalmologist performs a fundoscopy and discovers papilledema. What does the presence of papilledema suggest in the context of Sarah's symptoms?
 
-. . .
+<br>
+
+<br>
 
 ::: choices
 ::: choice
@@ -157,6 +205,10 @@ Following the discovery of papilledema, Sarah's ophthalmologist refers her back 
 ::: question
 What is the next best step in the evaluation of Sarah's condition, considering her symptoms and the finding of papilledema?
 
+<br>
+
+<br>
+
 ::: choices
 ::: choice
 Prescribe migraine medication
@@ -200,6 +252,10 @@ Sarah undergoes a brain MRI, which comes back normal, ruling out any masses or s
 
 ::: question
 What is the most appropriate initial step in management?
+
+<br>
+
+<br>
 
 ::: choices
 ::: choice
@@ -245,6 +301,10 @@ Sarah's lumbar puncture reveals an elevated opening pressure of 30 cm H2O, confi
 ::: question
 What is the primary mechanism of action of acetazolamide in the management of IIH?
 
+<br>
+
+<br>
+
 ::: choices
 ::: choice
 Increases cerebrospinal fluid (CSF) absorption
@@ -288,6 +348,10 @@ Despite initial treatment with acetazolamide and lifestyle modifications, Sarah'
 
 ::: question
 According to the latest guidelines, what is the recommended next step in Sarah's management, considering her refractory symptoms and worsening vision?
+
+<br>
+
+<br>
 
 ::: choices
 ::: choice
@@ -333,6 +397,10 @@ Sarah's symptoms remain refractory to maximum medical therapy. She is counseled 
 ::: question
 What are key factors to consider when counseling a patient on choosing between a VP shunt and dural sinus stenting for IIH?
 
+<br>
+
+<br>
+
 ::: choices
 ::: choice
 Invasiveness of the procedure
@@ -377,6 +445,10 @@ Sarah opts for dural sinus stenting after discussing her options with her health
 ::: question
 During the dural sinus stenting procedure, what is the minimum pressure gradient on venography recommended for stenting according to guidelines?
 
+<br>
+
+<br>
+
 ::: choices
 ::: choice
 2 mmHg
@@ -418,6 +490,10 @@ After the stenting procedure, Sarah's symptoms significantly improve. Her headac
 
 ::: question
 What follow-up care is recommended for Sarah post-stenting to ensure continued improvement and monitor for potential complications?
+
+<br>
+
+<br>
 
 ::: choices
 ::: choice
@@ -463,6 +539,10 @@ Biannual comprehensive eye exams
 ::: question
 Which of the following factors is most predictive of a successful outcome following dural venous sinus stenting (DVSS) for IIH?
 
+<br>
+
+<br>
+
 ::: choices
 ::: choice
 Patient's age
@@ -502,6 +582,10 @@ Overall health and comorbidity profile
 
 ::: question
 Which condition must be ruled out to definitively diagnose idiopathic intracranial hypertension (IIH)?
+
+<br>
+
+<br>
 
 ::: choices
 ::: choice
@@ -543,6 +627,10 @@ Meningitis
 ::: question
 What percentage of patients experienced improvement in visual disturbances after undergoing venous sinus stenting, according to the meta-analysis?
 
+<br>
+
+<br>
+
 ::: choices
 ::: choice
 75%
@@ -583,6 +671,10 @@ What percentage of patients experienced improvement in visual disturbances after
 ::: question
 What is the average reduction in acetazolamide dosage following DVSS at the 3-month postoperative assessment?
 
+<br>
+
+<br>
+
 ::: choices
 ::: question
 From 1000mg to 500mg daily
@@ -622,6 +714,10 @@ From 1200mg to 600mg daily
 
 ::: question
 How do comorbid conditions such as polycystic ovary syndrome (PCOS) impact the management of IIH?
+
+<br>
+
+<br>
 
 ::: choices
 ::: choice
