@@ -1,28 +1,36 @@
 project:
   type: website
-
+  output-dir: docs
+  
 website:
-  title: "Portfolio"
-  search: 
-    location: navbar
-    type: overlay
+  title: "Mirindi Kabangu"
   navbar:
-    left: 
-      - text: Home
-        href: index.qmd
-      - text: Projects
-        href: projects.qmd
-      - text: Resume
-        href: resume.qmd
-      - text: About
-        href: about.qmd
-    right:
-      - icon: github
-        href: https://github.com/mkabangu
+    left:
+      - href: index.qmd
+        text: Home
+      - projects.qmd
+    tools:
       - icon: twitter
         href: https://twitter.com/mirindi_
-        
+      - icon: github
+        href: https://github.com/mkabangu/mirindikabangu
+  page-footer:
+    left: |
+      <b>Mirindi Kabangu</b> <br>
+      Medical Student<br>
+      Indiana University School of Medicine<br>
+      "&copy; Copyright 2024, Mirindi Kabangu"<br>
+      "Built with [Quarto](https://quarto.org/)"
+    right: |
+      <i class="fab fa-twitter"></i> <a href="https://twitter.com/Mirindi_">@Mirindi_</a> on Twitter <br>
+      <i class="fab fa-github"></i> <a href="https://github.com/mkabangu">mkabangu</a> on GitHub <br>
+      <i class="fas fa-envelope"></i> <a href="mailto:mkabangu@iu.edu">mkabangu@iu.edu</a><br>
+      <i class="fas fa-map-marker-alt"></i> Acton, ACT, Australia
+
 format:
   html:
-    theme: flatly
-    code-link: true
+    theme: cerulean
+    toc: true
+
+editor: source
+
