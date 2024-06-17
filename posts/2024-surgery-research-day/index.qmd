@@ -16,3 +16,11 @@ This is a post with a plot.
 ```{r}
 plot(mtcars)
 ```
+
+<iframe width="800" height="800" src="images/srs2024.pdf">
+
+</iframe>
+
+Click [here](`r rmarkdown::metadata$url`) for the link to the slide. 
+
+<iframe src="`r rmarkdown::metadata$url`" width="100%" height="450px"></iframe>
