@@ -1,9 +1,8 @@
 ---
 title: "Mirindi Kabangu"
+image: img/mk.jpg
 about:
-  id: me
   template: jolla
-  image: img/profile.png
   image-width: 20em
   image-shape: round
   links:
@@ -20,15 +19,5 @@ about:
       text: Contact Me
       href: mailto:mkabangu@iu.edu
 ---
-
-:::{#me}
-
-## Goals
-
-## Education
-
-## Experience
-
-:::
 
 Thanks for checking out my web site!
