@@ -1,22 +1,14 @@
 ---
-title: "DSS Presentation"
+title: "Dural Sinus Stenting"
 author: "Mirindi Kabangu"
 institute: "Indiana University School of Medicine"
 format: 
   revealjs:
-    embed-resources: true
-    theme: simple
-    transition: fade
     slide-number: true
-    multiplex: true
-    show-slide-number: all
-    controls: true
-    width: 80%
-    height: 80%
+    theme: simple
+    transition: slide
     logo: img/white-iu.png
-    min-scale: 1
-    max-scale: 1
-    mobileView: true
+    footer: <https://mkabangu.github.io/mirindikabangu>
 filters: 
   - naquiz
 ---
@@ -70,10 +62,10 @@ Whooshing sound heard upon auscultation of the ear
 
 ------------------------------------------------------------------------
 
-------------------------------------------------------------------------
-
 ::: question
 Given Sarah's presentation of severe headaches, visual disturbances, and pulsatile tinnitus, what is the most likely diagnosis?
+
+. . .
 
 ::: choices
 ::: choice
@@ -118,6 +110,8 @@ Sarah's primary care physician performs a comprehensive history and physical exa
 
 ::: question
 During the ophthalmology appointment, the ophthalmologist performs a fundoscopy and discovers papilledema. What does the presence of papilledema suggest in the context of Sarah's symptoms?
+
+. . .
 
 ::: choices
 ::: choice
@@ -198,7 +192,7 @@ Schedule a follow-up in three months
 
 ------------------------------------------------------------------------
 
-## Diagnostic Imaging
+## Diagnostic Imaging {auto-animate="true"}
 
 Sarah undergoes a brain MRI, which comes back normal, ruling out any masses or structural abnormalities. However, the MRV reveals stenosis of the transverse sinuses.
 
@@ -242,7 +236,7 @@ Initiate anti-inflammatory treatment
 
 ------------------------------------------------------------------------
 
-## Management Plan
+## Management Plan {auto-animate="true"}
 
 Sarah's lumbar puncture reveals an elevated opening pressure of 30 cm H2O, confirming the diagnosis of IIH. Initial management with acetazolamide 500 mg twice daily and lifestyle modifications is started.
 
@@ -286,7 +280,7 @@ Enhances cerebral oxygen delivery
 
 ------------------------------------------------------------------------
 
-## Persistent Symptoms
+## Persistent Symptoms {auto-animate="true"}
 
 Despite initial treatment with acetazolamide and lifestyle modifications, Sarah's symptoms persist, and her vision continues to deteriorate.
 
@@ -330,7 +324,7 @@ Observe and re-evaluate in six months
 
 ------------------------------------------------------------------------
 
-## Counseling on Treatment Options
+## Counseling on Treatment Options {auto-animate="true"}
 
 Sarah's symptoms remain refractory to maximum medical therapy. She is counseled on further treatment options, including ventriculoperitoneal (VP) shunt and dural sinus stenting.
 
@@ -374,7 +368,7 @@ Cost and accessibility of treatment
 
 ------------------------------------------------------------------------
 
-## Decision and Procedure
+## Decision and Procedure {auto-animate="true"}
 
 Sarah opts for dural sinus stenting after discussing her options with her healthcare team. She is referred to an interventional radiologist and undergoes venous angiogram to evaluate for stenosis.
 
@@ -416,7 +410,7 @@ During the dural sinus stenting procedure, what is the minimum pressure gradient
 
 ------------------------------------------------------------------------
 
-## Follow-Up and Outcome
+## Follow-Up and Outcome {auto-animate="true"}
 
 After the stenting procedure, Sarah's symptoms significantly improve. Her headaches diminish, her vision is restored, and the pulsatile tinnitus resolves.
 
@@ -460,11 +454,11 @@ Biannual comprehensive eye exams
 
 ------------------------------------------------------------------------
 
-## Challenge Questions
+## Challenge Questions {auto-animate="true"}
 
 ------------------------------------------------------------------------
 
-#### Predictive Factors for DVSS Success
+#### Predictive Factors for DVSS Success {auto-animate="true"}
 
 ::: question
 Which of the following factors is most predictive of a successful outcome following dural venous sinus stenting (DVSS) for IIH?
@@ -504,7 +498,7 @@ Overall health and comorbidity profile
 
 ------------------------------------------------------------------------
 
-#### Differential Diagnosis of IIH
+#### Differential Diagnosis of IIH {auto-animate="true"}
 
 ::: question
 Which condition must be ruled out to definitively diagnose idiopathic intracranial hypertension (IIH)?
@@ -544,7 +538,7 @@ Meningitis
 
 ------------------------------------------------------------------------
 
-#### Improvement in Visual Disturbances
+#### Improvement in Visual Disturbances {auto-animate="true"}
 
 ::: question
 What percentage of patients experienced improvement in visual disturbances after undergoing venous sinus stenting, according to the meta-analysis?
@@ -584,7 +578,7 @@ What percentage of patients experienced improvement in visual disturbances after
 
 ------------------------------------------------------------------------
 
-#### Reduction in Acetazolamide Dosage
+#### Reduction in Acetazolamide Dosage {auto-animate="true"}
 
 ::: question
 What is the average reduction in acetazolamide dosage following DVSS at the 3-month postoperative assessment?
@@ -624,7 +618,7 @@ From 1200mg to 600mg daily
 
 ------------------------------------------------------------------------
 
-#### Impact of Comorbid Conditions
+#### Impact of Comorbid Conditions {auto-animate="true"}
 
 ::: question
 How do comorbid conditions such as polycystic ovary syndrome (PCOS) impact the management of IIH?
