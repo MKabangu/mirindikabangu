@@ -6,7 +6,7 @@ abstract: |
 
 author: "Mirindi T. Kabangu & Noor U. Malik"
 date: "2024-06-14"
-image: "image.jpg"
+image: "vss1.jpg"
 categories: [code, slides, poster]
 engine: knitr
 ---
@@ -263,7 +263,9 @@ Following the logistic regression analysis, the results suggest that higher BMI 
 
 # Conclusion
 
-This comprehensive study underscores the significant potential of venous sinus stenting as an effective intervention for pediatric patients with Idiopathic Intracranial Hypertension (IIH). The analysis demonstrated that stenting is particularly efficacious in alleviating critical symptoms such as headaches and papilledema, with a marked improvement in symptom resolution rates compared to non-stented patients. Furthermore, our findings highlight that while higher BMI percentiles are associated with better outcomes following stenting, age does not significantly affect the success of the treatment, suggesting that venous sinus stenting can be beneficial across a broad pediatric age spectrum. These insights advocate for the integration of venous sinus stenting into the treatment paradigms for IIH, especially in cases where traditional medical and surgical approaches may be less effective. Moving forward, continuous advancements in stenting techniques and a deeper understanding of patient-specific factors will be essential to optimize outcomes and further solidify the role of stenting as a cornerstone in the management of pediatric IIH.Click [here](https://mkabangu.github.io/mirindikabangu/DSS_prez2.html#/title-slide) for the link to the slides.
+This comprehensive study underscores the significant potential of venous sinus stenting as an effective intervention for pediatric patients with Idiopathic Intracranial Hypertension (IIH). The analysis demonstrated that stenting is particularly efficacious in alleviating critical symptoms such as headaches and papilledema, with a marked improvement in symptom resolution rates compared to non-stented patients. Furthermore, our findings highlight that while higher BMI percentiles are associated with better outcomes following stenting, age does not significantly affect the success of the treatment, suggesting that venous sinus stenting can be beneficial across a broad pediatric age spectrum. These insights advocate for the integration of venous sinus stenting into the treatment paradigms for IIH, especially in cases where traditional medical and surgical approaches may be less effective. Moving forward, continuous advancements in stenting techniques and a deeper understanding of patient-specific factors will be essential to optimize outcomes and further solidify the role of stenting as a cornerstone in the management of pediatric IIH.
+
+Click [here](https://mkabangu.github.io/mirindikabangu/DSS_prez2.html#/title-slide) for the link to the slides.
 
 <iframe src="https://mkabangu.github.io/mirindikabangu/DSS_prez2.html#/title-slide" width="100%" height="900px">
 

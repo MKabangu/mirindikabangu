@@ -4,6 +4,7 @@ author: "Mirindi T. Kabangu & Noor U. Malik"
 institute: "Indiana University School of Medicine"
 format: 
   revealjs:
+    navigation-mode: vertical
     slide-number: true
     theme: simple
     logo: img/white-iu.png
@@ -16,7 +17,7 @@ filters:
 
 # Case {transition="slide"}
 
-"Chronic headaches"
+## Chronic headaches
 
 ::: aside
 Case was modified for teaching purposes
@@ -202,7 +203,7 @@ It is indicative of optic neuritis
 
 ------------------------------------------------------------------------
 
-## Seeking Further Medical Attention {transition="slide"}
+## Seeking Further Medical Attention
 
 Following the discovery of papilledema, Sarah's ophthalmologist refers her back to the primary care physician with a recommendation for neuroimaging and further evaluation by a neurologist.
 
@@ -254,7 +255,7 @@ Schedule a follow-up in three months
 
 ------------------------------------------------------------------------
 
-## Diagnostic Imaging {transition="slide"}
+## Diagnostic Imaging
 
 Sarah undergoes a brain MRI, which comes back normal, ruling out any masses or structural abnormalities. However, the MRV reveals stenosis of the transverse sinuses.
 
@@ -306,7 +307,7 @@ Initiate anti-inflammatory treatment
 
 ------------------------------------------------------------------------
 
-## Management Plan {transition="slide"}
+## Management Plan
 
 Sarah's lumbar puncture reveals an elevated opening pressure of 30 cm H2O, confirming the diagnosis of IIH. Initial management with acetazolamide 500 mg twice daily and lifestyle modifications is started.
 
@@ -358,7 +359,7 @@ Enhances cerebral oxygen delivery
 
 ------------------------------------------------------------------------
 
-## Persistent Symptoms {transition="slide"}
+## Persistent Symptoms
 
 Despite initial treatment with acetazolamide and lifestyle modifications, Sarah's symptoms persist, and her vision continues to deteriorate.
 
@@ -410,7 +411,7 @@ Observe and re-evaluate in six months
 
 ------------------------------------------------------------------------
 
-## Counseling on Treatment Options {transition="slide"}
+## Counseling on Treatment Options
 
 Sarah's symptoms remain refractory to maximum medical therapy. She is counseled on further treatment options, including ventriculoperitoneal (VP) shunt and dural sinus stenting.
 
@@ -462,7 +463,7 @@ Cost and accessibility of treatment
 
 ------------------------------------------------------------------------
 
-## Decision and Procedure {transition="slide"}
+## Decision and Procedure
 
 Sarah opts for dural sinus stenting after discussing her options with her healthcare team. She is referred to an interventional radiologist and undergoes venous angiogram to evaluate for stenosis.
 
@@ -512,7 +513,7 @@ During the dural sinus stenting procedure, what is the minimum pressure gradient
 
 ------------------------------------------------------------------------
 
-## Follow-Up and Outcome {transition="slide"}
+## Follow-Up and Outcome
 
 After the stenting procedure, Sarah's symptoms significantly improve. Her headaches diminish, her vision is restored, and the pulsatile tinnitus resolves.
 
@@ -564,7 +565,7 @@ Biannual comprehensive eye exams
 
 ------------------------------------------------------------------------
 
-## Challenge Questions {transition="slide"}
+## Challenge Questions
 
 ------------------------------------------------------------------------
 
@@ -616,7 +617,7 @@ Overall health and comorbidity profile
 
 ------------------------------------------------------------------------
 
-#### Differential Diagnosis of IIH {transition="slide"}
+#### Differential Diagnosis of IIH
 
 ::: question
 Which condition must be ruled out to definitively diagnose idiopathic intracranial hypertension (IIH)?
@@ -664,7 +665,7 @@ Meningitis
 
 ------------------------------------------------------------------------
 
-#### Improvement in Visual Disturbances {transition="slide"}
+#### Improvement in Visual Disturbances
 
 ::: question
 What percentage of patients experienced improvement in visual disturbances after undergoing venous sinus stenting, according to the meta-analysis?
@@ -712,7 +713,7 @@ What percentage of patients experienced improvement in visual disturbances after
 
 ------------------------------------------------------------------------
 
-#### Reduction in Acetazolamide Dosage {transition="slide"}
+#### Reduction in Acetazolamide Dosage
 
 ::: question
 What is the average reduction in acetazolamide dosage following DVSS at the 3-month postoperative assessment?
@@ -760,7 +761,7 @@ From 1200mg to 600mg daily
 
 ------------------------------------------------------------------------
 
-#### Impact of Comorbid Conditions {transition="slide"}
+#### Impact of Comorbid Conditions
 
 ::: question
 How do comorbid conditions such as polycystic ovary syndrome (PCOS) impact the management of IIH?
@@ -814,7 +815,7 @@ They require specialized pharmacological interventions
 -   Diagnosis involves imaging and lumbar puncture to measure opening pressure, following the latest guidelines.
 -   Initial management includes medication and lifestyle changes, with dural sinus stenting as an option for refractory cases, supported by current clinical guidelines.
 
-## About This Presentation
+## Authors
 
 **Authors:** Mirindi T. Kabangu & Noor U. Malik
 
