@@ -1,23 +1,22 @@
 ---
 title: "Dural Sinus Stenting"
-author: "Mirindi Kabangu"
+author: "Mirindi T. Kabangu & Noor U. Malik"
 institute: "Indiana University School of Medicine"
 format: 
   revealjs:
     slide-number: true
     theme: simple
-    transition: slide
     logo: img/white-iu.png
-    footer: <https://mkabangu.github.io/mirindikabangu>
+    footer: |
+      [Back to Site](https://mkabangu.github.io/mirindikabangu/2024-surgery-research-day)
+css: custom.css
 filters: 
   - naquiz
 ---
 
-# Case
+# Case {transition="slide"}
 
 "Chronic headaches"
-
-
 
 ::: aside
 Case was modified for teaching purposes
@@ -25,12 +24,12 @@ Case was modified for teaching purposes
 
 ------------------------------------------------------------------------
 
-## Initial Presentation {auto-animate=true}
+## Initial Presentation {transition="slide"}
 Meet Sarah, a 15-year-old girl who presents to the clinic with a three-month history of progressive headaches.
 
 ------------------------------------------------------------------------
 
-## Initial Presentation {auto-animate=true}
+## Initial Presentation
 Meet Sarah, a 15-year-old girl who presents to the clinic with a three-month history of progressive headaches.
 
 <br>
@@ -58,7 +57,7 @@ Meet Sarah, a 15-year-old girl who presents to the clinic with a three-month his
 
 ------------------------------------------------------------------------
 
-## Initial Presentation {auto-animate=true}
+## Initial Presentation
 Meet Sarah, a 15-year-old girl who presents to the clinic with a three-month history of progressive headaches.
 
 <br>
@@ -151,7 +150,7 @@ Secondary hypertension
 
 ------------------------------------------------------------------------
 
-## Visit to the Primary Care Physician
+## Visit to the Primary Care Physician {transition="slide"}
 
 Sarah's primary care physician performs a comprehensive history and physical examination. Given her symptoms, Sarah is referred to an ophthalmologist for further evaluation of her visual complaints.
 
@@ -203,7 +202,7 @@ It is indicative of optic neuritis
 
 ------------------------------------------------------------------------
 
-## Seeking Further Medical Attention
+## Seeking Further Medical Attention {transition="slide"}
 
 Following the discovery of papilledema, Sarah's ophthalmologist refers her back to the primary care physician with a recommendation for neuroimaging and further evaluation by a neurologist.
 
@@ -255,7 +254,7 @@ Schedule a follow-up in three months
 
 ------------------------------------------------------------------------
 
-## Diagnostic Imaging {auto-animate="true"}
+## Diagnostic Imaging {transition="slide"}
 
 Sarah undergoes a brain MRI, which comes back normal, ruling out any masses or structural abnormalities. However, the MRV reveals stenosis of the transverse sinuses.
 
@@ -291,6 +290,10 @@ Initiate anti-inflammatory treatment
 :::
 :::
 
+<br>
+
+<br>
+
 <details>
 
 <summary><strong>Answer and Explanation</strong></summary>
@@ -303,7 +306,7 @@ Initiate anti-inflammatory treatment
 
 ------------------------------------------------------------------------
 
-## Management Plan {auto-animate="true"}
+## Management Plan {transition="slide"}
 
 Sarah's lumbar puncture reveals an elevated opening pressure of 30 cm H2O, confirming the diagnosis of IIH. Initial management with acetazolamide 500 mg twice daily and lifestyle modifications is started.
 
@@ -339,6 +342,10 @@ Enhances cerebral oxygen delivery
 :::
 :::
 
+<br>
+
+<br>
+
 <details>
 
 <summary><strong>Answer and Explanation</strong></summary>
@@ -351,7 +358,7 @@ Enhances cerebral oxygen delivery
 
 ------------------------------------------------------------------------
 
-## Persistent Symptoms {auto-animate="true"}
+## Persistent Symptoms {transition="slide"}
 
 Despite initial treatment with acetazolamide and lifestyle modifications, Sarah's symptoms persist, and her vision continues to deteriorate.
 
@@ -387,6 +394,10 @@ Observe and re-evaluate in six months
 :::
 :::
 
+<br>
+
+<br>
+
 <details>
 
 <summary><strong>Answer and Explanation</strong></summary>
@@ -399,7 +410,7 @@ Observe and re-evaluate in six months
 
 ------------------------------------------------------------------------
 
-## Counseling on Treatment Options {auto-animate="true"}
+## Counseling on Treatment Options {transition="slide"}
 
 Sarah's symptoms remain refractory to maximum medical therapy. She is counseled on further treatment options, including ventriculoperitoneal (VP) shunt and dural sinus stenting.
 
@@ -435,6 +446,10 @@ Cost and accessibility of treatment
 :::
 :::
 
+<br>
+
+<br>
+
 <details>
 
 <summary><strong>Answer and Explanation</strong></summary>
@@ -447,7 +462,7 @@ Cost and accessibility of treatment
 
 ------------------------------------------------------------------------
 
-## Decision and Procedure {auto-animate="true"}
+## Decision and Procedure {transition="slide"}
 
 Sarah opts for dural sinus stenting after discussing her options with her healthcare team. She is referred to an interventional radiologist and undergoes venous angiogram to evaluate for stenosis.
 
@@ -483,6 +498,10 @@ During the dural sinus stenting procedure, what is the minimum pressure gradient
 :::
 :::
 
+<br>
+
+<br>
+
 <details>
 
 <summary><strong>Answer and Explanation</strong></summary>
@@ -493,7 +512,7 @@ During the dural sinus stenting procedure, what is the minimum pressure gradient
 
 ------------------------------------------------------------------------
 
-## Follow-Up and Outcome {auto-animate="true"}
+## Follow-Up and Outcome {transition="slide"}
 
 After the stenting procedure, Sarah's symptoms significantly improve. Her headaches diminish, her vision is restored, and the pulsatile tinnitus resolves.
 
@@ -529,6 +548,10 @@ Biannual comprehensive eye exams
 :::
 :::
 
+<br>
+
+<br>
+
 <details>
 
 <summary><strong>Answer and Explanation</strong></summary>
@@ -541,11 +564,11 @@ Biannual comprehensive eye exams
 
 ------------------------------------------------------------------------
 
-## Challenge Questions {auto-animate="true"}
+## Challenge Questions {transition="slide"}
 
 ------------------------------------------------------------------------
 
-#### Predictive Factors for DVSS Success {auto-animate="true"}
+#### Predictive Factors for DVSS Success {transition="slide"}
 
 ::: question
 Which of the following factors is most predictive of a successful outcome following dural venous sinus stenting (DVSS) for IIH?
@@ -577,6 +600,10 @@ Overall health and comorbidity profile
 :::
 :::
 
+<br>
+
+<br>
+
 <details>
 
 <summary><strong>Answer and Explanation</strong></summary>
@@ -589,7 +616,7 @@ Overall health and comorbidity profile
 
 ------------------------------------------------------------------------
 
-#### Differential Diagnosis of IIH {auto-animate="true"}
+#### Differential Diagnosis of IIH {transition="slide"}
 
 ::: question
 Which condition must be ruled out to definitively diagnose idiopathic intracranial hypertension (IIH)?
@@ -621,6 +648,10 @@ Meningitis
 :::
 :::
 
+<br>
+
+<br>
+
 <details>
 
 <summary><strong>Answer and Explanation</strong></summary>
@@ -633,7 +664,7 @@ Meningitis
 
 ------------------------------------------------------------------------
 
-#### Improvement in Visual Disturbances {auto-animate="true"}
+#### Improvement in Visual Disturbances {transition="slide"}
 
 ::: question
 What percentage of patients experienced improvement in visual disturbances after undergoing venous sinus stenting, according to the meta-analysis?
@@ -665,6 +696,10 @@ What percentage of patients experienced improvement in visual disturbances after
 :::
 :::
 
+<br>
+
+<br>
+
 <details>
 
 <summary><strong>Answer and Explanation</strong></summary>
@@ -677,7 +712,7 @@ What percentage of patients experienced improvement in visual disturbances after
 
 ------------------------------------------------------------------------
 
-#### Reduction in Acetazolamide Dosage {auto-animate="true"}
+#### Reduction in Acetazolamide Dosage {transition="slide"}
 
 ::: question
 What is the average reduction in acetazolamide dosage following DVSS at the 3-month postoperative assessment?
@@ -709,6 +744,10 @@ From 1200mg to 600mg daily
 :::
 :::
 
+<br>
+
+<br>
+
 <details>
 
 <summary><strong>Answer and Explanation</strong></summary>
@@ -721,7 +760,7 @@ From 1200mg to 600mg daily
 
 ------------------------------------------------------------------------
 
-#### Impact of Comorbid Conditions {auto-animate="true"}
+#### Impact of Comorbid Conditions {transition="slide"}
 
 ::: question
 How do comorbid conditions such as polycystic ovary syndrome (PCOS) impact the management of IIH?
@@ -753,6 +792,10 @@ They require specialized pharmacological interventions
 :::
 :::
 
+<br>
+
+<br>
+
 <details>
 
 <summary><strong>Answer and Explanation</strong></summary>
@@ -773,6 +816,6 @@ They require specialized pharmacological interventions
 
 ## About This Presentation
 
-**Author:** Mirindi T. Kabangu
+**Authors:** Mirindi T. Kabangu & Noor U. Malik
 
-**Contact:** [mkabangu\@iu.edu](mailto:mkabangu@iu.edu)
+**Contact:** [mkabangu\@iu.edu](mailto:mkabangu@iu.edu) & [noumalik\@iu.edu](mailto:noumalik@iu.edu)
