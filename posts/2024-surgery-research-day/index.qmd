@@ -4,12 +4,21 @@ host: "IUSM Surgery Symposium"
 abstract: |
   Idiopathic intracranial hypertension (IIH) is increasingly recognized in pediatric patients, particularly in overweight, post-pubescent children aged 12 to 15 years. This study retrospectively reviews pediatric patients diagnosed with IIH assessed for venous sinus stenting based on specific symptoms and imaging evidence of venous sinus stenosis.
 
-author: "Mirindi Kabangu & Noor Malik"
+author: "Mirindi T. Kabangu & Noor U. Malik"
 date: "2024-06-14"
 image: "image.jpg"
 categories: [code, slides, poster]
 engine: knitr
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE,
+                      fig.align = 'center',
+                      out.width = "100%")
+options(knitr.table.format = "html") 
+```
 
 ```{r data-import, include=FALSE}
 library(readr)
@@ -54,6 +63,8 @@ data <- read_csv("peds-VSS-cohort-data.csv",
 data <- data |>
   mutate(stented_status = factor(ifelse(tx_stent == "Stent", "Stented", "Non-Stented"), levels = c("Stented", "Non-Stented"))) |> 
   mutate(dietician_status = factor(ifelse(tx_dietician == 1, "Consulted", "Not Consult"), levels = c("Consulted", "Not Consulted")))
+
+theme_gtsummary_compact()
 ```
 
 # Cohort
@@ -98,7 +109,7 @@ data |>
   add_p()
 ```
 
-Preliminary statistical analyses were conducted to assess demographic differences between the stented and non-stented groups among pediatric patients with Idiopathic Intracranial Hypertension. The results indicated that there were no significant differences in age between the two groups, as evidenced by a p-value of X.XX from the T-test. Similarly, the Wilcoxon rank-sum test showed no significant differences in BMI percentiles between the groups, with a p-value of Y.YY. However, chi-squared tests for categorical variables such as sex and puberty stage revealed significant differences. The chi-squared test for sex resulted in a p-value of Z.ZZ, suggesting a significant variation in the distribution of sexes between the two groups. Additionally, differences in puberty stages were statistically significant with a p-value of A.AA, indicating distinct patterns in puberty progression between the stented and non-stented groups.
+Preliminary statistical analyses were conducted to assess demographic differences between the stented and non-stented groups among pediatric patients with Idiopathic Intracranial Hypertension. The results indicated that there were no significant differences in age between the two groups (p = 0.6). Similarly, no significant differences in BMI percentiles between the groups (p = 0.08) nor categorical variables such as sex (p \> 0.9) and puberty stage (p = 0.6).
 
 # Outcomes
 
@@ -117,7 +128,7 @@ stent_palette <- c("Stented" = "#990000",
 # Plot for out_resolution
 ggplot(data, aes(x = stented_status, y = out_resolution, fill = stented_status)) +
   geom_bar(stat = "summary", fun = "mean", position = "dodge") +
-  labs(title = "<span style='color:#990000'>Stenting</span> was associated with greater reductions in pressure gradient and symptom resolution, compared to <span style='color:#f2dfdf'>no stent</span>.") +
+  labs(title = "<span style='color:#990000'>Stenting</span> was associated with greater reductions in pressure gradient and symptom resolution, compared to no stent.") +
   theme_minimal() +
   ylim(0,1) +
   theme(legend.position = "none",
@@ -136,8 +147,6 @@ ggplot(data, aes(x = stented_status, y = out_resolution, fill = stented_status))
 ```
 
 The bar chart illustrates the proportion of pediatric patients with Idiopathic Intracranial Hypertension (IIH) experiencing symptom resolution post-treatment, categorized by stenting status. Each symptom—headache, vision changes, diplopia, papilledema, and tinnitus—is analyzed separately. The results clearly indicate that patients who received venous sinus stenting generally show a higher rate of symptom resolution compared to those who were not stented. This is particularly evident for symptoms such as headaches and papilledema, which are critical indicators of the severity of IIH.
-
-The graph provides a visual comparison between the stented and non-stented groups, highlighting the effectiveness of stenting in alleviating the key symptoms of IIH. For instance, the resolution of headaches and vision changes, which are among the most debilitating symptoms of IIH, appears to be markedly better in patients who underwent stenting. This suggests that venous sinus stenting not only helps in normalizing intracranial pressure but also significantly improves patient outcomes in terms of symptom relief.
 
 The differential impact across various symptoms and between treatment groups underscores the need for a tailored approach in managing IIH. These findings advocate for considering venous sinus stenting as a viable treatment option, especially in cases where conventional medical management does not yield sufficient symptom control. This analysis thus provides compelling evidence supporting the targeted use of stenting in pediatric IIH patients, potentially guiding more personalized and effective treatment strategies.
 
@@ -197,15 +206,17 @@ ggplot(data, aes(x = stented_status, y = tx_post_vp_shunt, fill = stented_status
   ylim(0,1)
 ```
 
-Notably, a smaller proportion of the \*\*stented\*\* group required VP shunts compared to the \*\*non-stented\*\* group, suggesting that stenting might be mitigating the underlying conditions necessitating further surgical interventions. This outcome highlights the potential of stenting not only in alleviating symptoms but also in reducing the surgical burden on patients. By lessening the need for additional procedures like VP shunts, stenting could represent a significant advancement in the treatment paradigm for IIH, offering a less invasive and possibly more cost-effective approach to long-term management of the disease.
+Notably, a smaller proportion of the stented group required VP shunts compared to the non-stented group, suggesting that stenting might be mitigating the underlying conditions necessitating further surgical interventions. This outcome highlights the potential of stenting not only in alleviating symptoms but also in reducing the surgical burden on patients. By lessening the need for additional procedures like VP shunts, stenting could represent a significant advancement in the treatment paradigm for IIH, offering a less invasive and possibly more cost-effective approach to long-term management of the disease.
 
-```{r}
+## Linear Regression Analysis
+
+```{r relabel}
 data$tx_stent <- as.factor(data$tx_stent)
 data$out_resolution <- as.factor(data$out_resolution)
 ```
 
-```{r}
-ggplot(data, aes(x = bmi_percentile, y = out_resolution, color = factor(tx_stent))) +
+```{r bmi-percentile}
+p4 <- ggplot(data, aes(x = bmi_percentile, y = out_resolution, color = factor(tx_stent))) +
   geom_jitter(alpha = 0.5) +
   geom_smooth(method = "glm", method.args = list(family = "binomial"), se = FALSE) +
   labs(title = "**<span style='color:#990000'>Higher BMI percentiles</span>** and the use of stenting are significant predictors of symptom resolution in pediatric patients with idiopathic intracranial hypertension, while age showed a less pronounced effect.") +
@@ -222,13 +233,15 @@ ggplot(data, aes(x = bmi_percentile, y = out_resolution, color = factor(tx_stent
           lineheight = 1.3,
           margin = margin(0.5, 0, 1, 0, "lines"))) +
   scale_color_manual(values = c("Stent" = "#990000", "No stent" = "#F2dfdf"))
+
+p4
 ```
 
-```{r}
-ggplot(data, aes(x = age, y = out_resolution, color = factor(tx_stent))) +
+```{r }
+p5 <- ggplot(data, aes(x = age, y = out_resolution, color = factor(tx_stent))) +
   geom_jitter(alpha = 0.5) +
   geom_smooth(method = "glm", method.args = list(family = "binomial"), se = FALSE) +
-  labs(title = "The influence of <span style='color:#990000'>age</span> on treatment outcomes was relatively minor") +
+  labs(title = "<span style='color:#990000'>Age</span> had a relatively minor influence on treatment outcomes.") +
   theme_minimal() +
   theme(legend.position = "none",
         title = element_blank(),
@@ -242,6 +255,8 @@ ggplot(data, aes(x = age, y = out_resolution, color = factor(tx_stent))) +
           lineheight = 1.3,
           margin = margin(0.5, 0, 1, 0, "lines"))) +
   scale_color_manual(values = c("Stent" = "#990000", "No stent" = "#F2dfdf"))
+
+p5
 ```
 
 Following the logistic regression analysis, the results suggest that higher BMI percentiles and the use of stenting significantly predict symptom resolution in pediatric patients with idiopathic intracranial hypertension (IIH), while age has a less pronounced effect. Specifically, the analysis indicates that patients with higher BMI percentiles are more likely to experience symptom resolution, highlighting the importance of body mass index as a factor in treatment outcomes. Moreover, stenting emerges as a critical intervention that markedly improves the likelihood of resolving symptoms compared to non-stented patients. This suggests that stenting not only alleviates the mechanical obstructions causing increased intracranial pressure but also leads to better clinical outcomes. In contrast, age does not show a strong influence on symptom resolution, indicating that younger and older pediatric patients are likely to benefit similarly from interventions aimed at reducing intracranial pressure. These findings underscore the effectiveness of targeted treatments like stenting in managing IIH and emphasize the need for tailored therapeutic strategies based on individual patient characteristics such as BMI.
