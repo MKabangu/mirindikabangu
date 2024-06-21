@@ -4,7 +4,6 @@ author: "Mirindi T. Kabangu & Noor U. Malik"
 institute: "Indiana University School of Medicine"
 format: 
   revealjs:
-    navigation-mode: vertical
     slide-number: true
     theme: simple
     logo: img/white-iu.png
