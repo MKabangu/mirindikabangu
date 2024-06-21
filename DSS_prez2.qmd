@@ -9,15 +9,14 @@ format:
     theme: simple
     logo: img/white-iu.png
     footer: |
-      [Back to Site](https://mkabangu.github.io/mirindikabangu/2024-surgery-research-day)
+      [Back to Site](https://mkabangu.github.io/mirindikabangu/posts/2024-surgery-research-day)
 css: custom.css
 filters: 
   - naquiz
 ---
 
-# Case {transition="slide"}
-
-## Chronic headaches
+## Case
+### Chronic headaches
 
 ::: aside
 Case was modified for teaching purposes
@@ -25,7 +24,7 @@ Case was modified for teaching purposes
 
 ------------------------------------------------------------------------
 
-## Initial Presentation {transition="slide"}
+## Initial Presentation
 Meet Sarah, a 15-year-old girl who presents to the clinic with a three-month history of progressive headaches.
 
 ------------------------------------------------------------------------
