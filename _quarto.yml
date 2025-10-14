@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
   
 website:
   title: "Mirindi Kabangu"
@@ -13,11 +14,8 @@ website:
       - text: CV
     
   page-footer:
-    left: |
-      &copy; Copyright 2024, Mirindi Kabangu<br>
-      Built with [Quarto](https://quarto.org/)
-    right: |
-      <i class="fas fa-envelope"></i> <a href="mailto:mkabangu@iu.edu">mkabangu@iu.edu</a><br>
+    left: "&copy; Copyright 2025, Mirindi Kabangu<br>"
+    right: "Built with [Quarto](https://quarto.org/)"
 
 format:
   html:
