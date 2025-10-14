@@ -11,8 +11,8 @@ categories: [slides]
 engine: knitr
 ---
 
-Click [here](https://mkabangu.github.io/talks/2025-mcw-diagnostic-radiology/index.html) for a full screen presentation.
+Click [here](https://mkabangu.github.io/talks/2025-mcw-diagnostic-radiology/presentation.html) for a full screen presentation.
 
-<iframe src="https://mkabangu.github.io/talks/2025-mcw-diagnostic-radiology/index.html#title-slide" width="100%" height="50%">
+<iframe src="https://mkabangu.github.io/talks/2025-mcw-diagnostic-radiology/presentation.html#title-slide" width="100%" height="50%">
 
 </iframe>
