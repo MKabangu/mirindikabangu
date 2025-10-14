@@ -1,0 +1,13 @@
+[
+  {
+    "listing": "/projects/index.html",
+    "items": []
+  },
+  {
+    "listing": "/talks/index.html",
+    "items": [
+      "/talks/posts/2025-mcw-dr-prez/index.html",
+      "/talks/posts/2024-surgery-research-day/index.html"
+    ]
+  }
+]

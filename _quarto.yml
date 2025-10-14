@@ -1,22 +1,17 @@
 project:
   type: website
-  output-dir: docs
   
 website:
-  title: "Portfolio"
+  title: "Mirindi Kabangu"
+  
   navbar:
     left:
-      - text: Home
-        href: index.qmd
       - text: Projects
-        href: projects.qmd
-      - text: Surgery Resident Research Day
-        href: DSS_prez2.qmd  
-    tools:
-      - icon: twitter
-        href: https://twitter.com/mirindi_
-      - icon: github
-        href: https://github.com/mkabangu/mirindikabangu
+        href: projects/index.qmd
+      - text: Talks
+        href: talks/index.qmd
+      - text: CV
+    
   page-footer:
     left: |
       &copy; Copyright 2024, Mirindi Kabangu<br>

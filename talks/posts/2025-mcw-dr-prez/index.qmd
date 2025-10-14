@@ -1,0 +1,18 @@
+---
+title: "Addressing Disparities in Uterine Fibroid Embolization"
+subtitle: "Medical College of Wisconsin Department of Radiology"
+host: "Medical College of Wisconsin Department of Radiology"
+abstract: |
+  Uterine fibroids are a common cause of heavy menstrual bleeding and pelvic pressure. This presentation reviews the American College of Radiology Appropriateness Criteria for initial imaging and treatment planning in women with clinically suspected fibroids, and examines the paradoxical underutilization of uterine artery embolization compared to other interventional procedures despite robust evidence and longer clinical history.
+
+author: "Mirindi T. Kabangu"
+date: "2025-10-15"
+categories: [slides]
+engine: knitr
+---
+
+Click [here](https://mkabangu.github.io/talks/2025-mcw-diagnostic-radiology/index.html) for a full screen presentation.
+
+<iframe src="https://mkabangu.github.io/talks/2025-mcw-diagnostic-radiology/index.html#title-slide" width="100%" height="50%">
+
+</iframe>

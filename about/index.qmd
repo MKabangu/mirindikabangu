@@ -1,0 +1,38 @@
+---
+title: "Mirindi Kabangu"
+subtitle: Medical student
+image: "../img/grad.jpg"
+about:
+  template: trestles
+  image-width: 20em
+  id: hero-heading
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/mirindikabangu
+    - icon: github
+      text: Github
+      href: https://github.com/mkabangu
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=qciLZHQAAAAJ&hl=en
+    - icon: envelope
+      text: Contact Me
+      href: mailto:mkabangu@iu.edu
+---
+
+Mirindi Kabangu is a Medical Student at Indiana University School of Medicine. When not crying over books, Mirindi enjoys long road trips to obscure places.
+
+## Education
+
+Indiana University, Indianapolis | Indianapolis, IN
+M.D. | Aug 2022 - May 2026
+
+University of Kentucky | Lexington, KY
+B.S. in Biology | Aug 2017 - May 2021
+
+## Experience
+
+Whatever analytics | Head Data Scientist | April 2018 - present
+
+- 
