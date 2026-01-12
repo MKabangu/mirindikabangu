@@ -1,0 +1,18 @@
+---
+title: "R for Medical Students"
+subtitle: "Student National Medical Association | AMEC 2026"
+host: "Student National Medical Association | AMEC 2026"
+abstract: |
+  This presentation reviews the modern evolution of Y90 radioembolization for hepatocellular carcinoma, highlighting its progression from a palliative therapy to a precision tool with curative potential. Key advances include radiation segmentectomy, radiation lobectomy, and the adoption of personalized dosimetry, which together have significantly improved tumor control and survival. Case examples from my rotation illustrate how these developments translate into real-world clinical decision-making and patient care.
+
+author: "Mirindi T. Kabangu"
+date: "2026-04-01"
+categories: [slides]
+engine: knitr
+---
+
+Click [here](https://mkabangu.github.io/talks/2026-snma-coding-workshop/presentation.html) for a full screen presentation.
+
+<iframe src="https://mkabangu.github.io/talks/2026-snma-coding-workshop/presentation.html#title-slide" width="100%" height="50%">
+
+</iframe>
