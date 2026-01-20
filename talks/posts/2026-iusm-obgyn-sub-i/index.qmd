@@ -1,18 +1,18 @@
 ---
 title: "Addressing Disparities in Uterine Fibroid Embolization"
-subtitle: "Medical College of Wisconsin Department of Radiology"
-host: "Medical College of Wisconsin Department of Radiology"
+subtitle: "Indiana University School of Medicine"
+host: "Indiana University School of Medicine"
 abstract: |
   This project traces the evolution of embolization from its origins in managing postpartum hemorrhage to its adaptation for fibroid treatment, highlighting the central importance of ultrasound and MRI in diagnosis, classification, and procedural planning. The work emphasizes how uterine artery embolization expands patient-centered treatment options beyond traditional surgery and addresses persistent disparities in fibroid burden and care, particularly among African American women, framing interventional radiology as a key contributor to equitable, contemporary gynecologic management.
 
 author: "Mirindi T. Kabangu"
-date: "2025-10-15"
+date: "2026-01-20"
 categories: [slides]
 engine: knitr
 ---
 
-Click [here](https://mkabangu.github.io/talks/2026-obgyn-sub-i/presentation.html) for a full screen presentation.
+Click [here](https://mkabangu.github.io/talks/2026-iusm-obgyn-sub-i/presentation.html) for a full screen presentation.
 
-<iframe src="https://mkabangu.github.io/talks/2026-obgyn-sub-i/presentation.html#title-slide" width="100%" height="50%">
+<iframe src="https://mkabangu.github.io/talks/2026-iusm-obgyn-sub-i/presentation.html#title-slide" width="100%" height="50%">
 
 </iframe>
