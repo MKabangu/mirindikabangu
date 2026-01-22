@@ -12,7 +12,7 @@ about:
       href: https://linkedin.com/mirindikabangu
     - icon: google
       text: Google Scholar
-      href: https://scholar.google.com/citations?user=qciLZHQAAAAJ&hl=en
+      href: https://scholar.google.com/citations?user=fh8boPMAAAAJ&hl=en&oi=ao
     - icon: github
       text: Github
       href: https://github.com/mkabangu
@@ -21,4 +21,4 @@ about:
       href: mailto:mkabangu@iu.edu
 ---
 
-Thanks for checking out my web site!
+Welcome to my little corner of the internet
