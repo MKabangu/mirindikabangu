@@ -7,3 +7,11 @@
     symptoms and imaging evidence of venous sinus stenosis.
   categories: [Code, Slides, Poster]
   date: 2024-06-14
+
+- title: Interventional Research Summaries
+  path: https://mkabangu.github.io/ir-research-summaries/project.html
+  image: images/riley-hfc.jpg
+  description: >
+    This project attempts to summarize the entirety of IR research with flipbooks of infographics.
+  categories: [Slides, Poster]
+  date: 2026-01-01

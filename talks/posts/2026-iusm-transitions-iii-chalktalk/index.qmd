@@ -1,0 +1,18 @@
+---
+title: "Know Before You Go: Anticoagulation in Interventional Radiology"
+subtitle: "Indiana University School of Medicine"
+host: "Indiana University School of Medicine"
+abstract: |
+  This chalk talk prepares senior medical students—soon‑to‑be interns in internal medicine and med‑peds—for ordering anticoagulation around interventional radiology procedures. It covers practical, evidence‑based decision points: assessing procedure bleeding risk; when to hold or continue warfarin, DOACs, LMWH and heparin; peri‑procedural reversal options; and how to manage bridging.
+
+author: "Mirindi T. Kabangu"
+date: "2026-02-24"
+categories: [slides]
+engine: knitr
+---
+
+Click [here](https://mkabangu.github.io/talks/2026-iusm-transitions-iii-chalktalk/presentation.html) for a full screen presentation.
+
+<iframe src="https://mkabangu.github.io/talks/2026-iusm-transitions-iii-chalktalk/presentation.html#title-slide" width="100%" height="50%">
+
+</iframe>
