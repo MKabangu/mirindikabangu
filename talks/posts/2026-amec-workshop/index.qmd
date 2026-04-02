@@ -3,7 +3,13 @@ title: "R for Medical Students"
 subtitle: "Student National Medical Association | AMEC 2026"
 host: "Student National Medical Association | AMEC 2026"
 abstract: |
-  This presentation reviews the modern evolution of Y90 radioembolization for hepatocellular carcinoma, highlighting its progression from a palliative therapy to a precision tool with curative potential. Key advances include radiation segmentectomy, radiation lobectomy, and the adoption of personalized dosimetry, which together have significantly improved tumor control and survival. Case examples from my rotation illustrate how these developments translate into real-world clinical decision-making and patient care.
+  If you've ever spent two hours cleaning a spreadsheet by hand, sent your PI a table you couldn't quite reproduce, or quietly Googled "how to do statistics in Excel" the night before a deadline, this talk is for you.
+  
+  At AMEC 2026, I led a 60-minute workshop where we wrote a clinical paper together, in real time, using R. Not a toy example. Actual manuscript outputs. We started with a de-identified RCT dataset, built a publication-ready Table 1 with automatic p-values, made two annotated results figures, and wrote the Results section text to go with them. Every attendee ran the code live in their browser. No installation, no setup, no prior R experience required.
+  
+  The goal wasn't to turn a room full of medical students into data scientists. It was to show that the jump from Excel to R is much shorter than it looks, and that reproducible, well-documented analysis isn't just a nice-to-have. It's becoming the expectation at submission.
+  
+  This workshop grew out of something I keep running into in my own research at the intersection of clinical data science and health equity: the tools that make research more rigorous are often framed as too technical for clinicians. I don't think that's true. I think most people just haven't seen what's possible in 60 minutes.
 
 author: "Mirindi T. Kabangu"
 date: "2026-04-01"
